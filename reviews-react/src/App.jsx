@@ -38,7 +38,7 @@ const App = () => {
       randomNumber = index + 1;
     }
     const newIndex = randomNumber % people.length;
-    setIndex(newIndex)
+    setIndex(newIndex);
     // setIndex(checkNumber(randomNumber));
   };
 
